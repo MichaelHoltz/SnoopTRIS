@@ -1,0 +1,246 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="snoopDogg.gif" />
+    <None Remove="Sound\AlienEntryRumble.mp3" />
+    <None Remove="Sound\AlignmentFailed - Villanous.mp3" />
+    <None Remove="Sound\A_Few_Moments_Later.mp3" />
+    <None Remove="Sound\BaDumTss.mp3" />
+    <None Remove="Sound\Beeps.mp3" />
+    <None Remove="Sound\BlinkBlink.mp3" />
+    <None Remove="Sound\Bop.mp3" />
+    <None Remove="Sound\Bruh.mp3" />
+    <None Remove="Sound\BuildUp.mp3" />
+    <None Remove="Sound\Cancel.wav" />
+    <None Remove="Sound\ComercialBreak.mp3" />
+    <None Remove="Sound\DeadPool_Crash.mp3" />
+    <None Remove="Sound\DeepStab.mp3" />
+    <None Remove="Sound\Defect1.wav" />
+    <None Remove="Sound\Defect2.wav" />
+    <None Remove="Sound\Defect3.wav" />
+    <None Remove="Sound\Error.wav" />
+    <None Remove="Sound\Finished_Light.mp3" />
+    <None Remove="Sound\GrandEntrance.mp3" />
+    <None Remove="Sound\GrandEntrance2.mp3" />
+    <None Remove="Sound\Growl_Boom_transfowoofer.mp3" />
+    <None Remove="Sound\GTA_Complete.mp3" />
+    <None Remove="Sound\HardEntry.mp3" />
+    <None Remove="Sound\HauntingEntry_Dip_Build_Blash.mp3" />
+    <None Remove="Sound\HeavenlyChoir_Complete.mp3" />
+    <None Remove="Sound\HeyWhatHappened.mp3" />
+    <None Remove="Sound\Investigating.mp3" />
+    <None Remove="Sound\LastStandTick.mp3" />
+    <None Remove="Sound\LowDrumHit.mp3" />
+    <None Remove="Sound\OMG.mp3" />
+    <None Remove="Sound\PartyHorn.mp3" />
+    <None Remove="Sound\QuietBeeps.mp3" />
+    <None Remove="Sound\Reverse.mp3" />
+    <None Remove="Sound\ReverseBuild.mp3" />
+    <None Remove="Sound\Run.mp3" />
+    <None Remove="Sound\SadViolin.mp3" />
+    <None Remove="Sound\Sneaky.mp3" />
+    <None Remove="Sound\squarepulserising9.mp3" />
+    <None Remove="Sound\SqueekyToy.mp3" />
+    <None Remove="Sound\Startup.wav" />
+    <None Remove="Sound\Suspense.mp3" />
+    <None Remove="Sound\SwordEntry.mp3" />
+    <None Remove="Sound\TestComplete.wav" />
+    <None Remove="Sound\ThumbBoop.mp3" />
+    <None Remove="Sound\TinkerBell_Next.mp3" />
+    <None Remove="Sound\transformers-growling.mp3" />
+    <None Remove="Sound\transformers-type-sfx-2.mp3" />
+    <None Remove="Sound\TrollBell.mp3" />
+    <None Remove="Sound\TwoToneAlert.mp3" />
+    <None Remove="Sound\Unlocked.mp3" />
+    <None Remove="Sound\WaitingForOperatorLoop.wav" />
+    <None Remove="Sound\Welcome to S.F.W.I.F-Villanous.mp3" />
+    <None Remove="Sound\Welcome to SWIFT_Ryan.mp3" />
+    <None Remove="Sound\WhoAreYou_SwitchUser.mp3" />
+    <None Remove="Sound\WoopBoom.mp3" />
+    <None Remove="Sound\Woosh.mp3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="snoopDogg.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\AlienEntryRumble.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\AlignmentFailed - Villanous.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\A_Few_Moments_Later.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\BaDumTss.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\Beeps.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\BlinkBlink.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\Bop.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\Bruh.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\BuildUp.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\Cancel.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\ComercialBreak.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\DeadPool_Crash.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\DeepStab.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\Defect1.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\Defect2.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\Defect3.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\Error.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\Finished_Light.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\GrandEntrance.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\GrandEntrance2.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\Growl_Boom_transfowoofer.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\GTA_Complete.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\HardEntry.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\HauntingEntry_Dip_Build_Blash.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\HeavenlyChoir_Complete.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\HeyWhatHappened.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\Investigating.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\LastStandTick.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\LowDrumHit.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\OMG.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\PartyHorn.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\QuietBeeps.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\Reverse.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\ReverseBuild.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\Run.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\SadViolin.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\Sneaky.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\squarepulserising9.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\SqueekyToy.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\Suspense.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\SwordEntry.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\TestComplete.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\ThumbBoop.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\TinkerBell_Next.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\transformers-growling.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\transformers-type-sfx-2.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\TrollBell.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\TwoToneAlert.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\Unlocked.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\WaitingForOperatorLoop.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\Welcome to S.F.W.I.F-Villanous.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\Welcome to SWIFT_Ryan.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\WhoAreYou_SwitchUser.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\WoopBoom.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\Woosh.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NAudio" Version="2.2.1" />
+  </ItemGroup>
+
+</Project>
